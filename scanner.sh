@@ -2730,6 +2730,6 @@ show_summary() {
     _send_scan_report &
 }
 
-pedir_key
+#pedir_key
 check_storage
 main_menu
