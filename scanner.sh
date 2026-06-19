@@ -71,7 +71,7 @@ pedir_key() {
         clear
         echo ""
         printf "%b\n" "${M}╔$(_hl $_inner =)╗${N}"
-        printf "%b\n" "${M}║${W}$(_bc "UNKNOWN SECURITY TEAM" $_inner)${M}║${N}"
+        printf "%b\n" "${M}║${W}$(_bc "CRACKED SECURITY TEAM" $_inner)${M}║${N}"
         printf "%b\n" "${M}║${M}$(_bc "— SCANNER PRIVADO —" $_inner)${M}║${N}"
         printf "%b\n" "${M}╠$(_hl $_inner =)╣${N}"
         printf "%b\n" "${M}║${N}$(_bc "Este scanner es de uso privado." $_inner)${M}║${N}"
@@ -267,7 +267,7 @@ banner() {
          | grep -o '"total":[0-9]*' | grep -o '[0-9]*' || echo "?")
 
     printf "%b\n" "${C}╔$(_hl $inner ═)╗${N}"
-    printf "%b\n" "${C}║${M}$(_bc "CODE BY TIZI.XIT  ·  ANTI-CHEAT SYSTEM" $inner)${C}║${N}"
+    printf "%b\n" "${C}║${M}$(_bc "CODE BY CRACKEADO MAMA HUEVO  ·  ANTI-CHEAT SYSTEM" $inner)${C}║${N}"
     printf "%b\n" "${C}║${W}$(_bc "UNKNOWN SCANNER  —  v1.7.0" $inner)${C}║${N}"
     printf "%b\n" "${C}║${G}$(_bc "Globales: ${_g}   Dispositivo: ${_l}" $inner)${C}║${N}"
     printf "%b\n" "${C}╠$(_hl $inner ═)╣${N}"
